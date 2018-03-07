@@ -1,0 +1,27 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	width: 100vw;
+	height: 100vh;
+	background: url("./assets/freedom.jpg") no-repeat center;
+	text-align: center;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.quote {
+	text-transform: uppercase;
+	font: 2.3rem 'Julius Sans One', sans-serif;
+	line-height: 1.6;
+	padding-top: 6.6rem;
+	margin-bottom: 3rem;
+
+}
+
+.author {
+	font: 1.4rem 'Crimson Text', serif;
+}
