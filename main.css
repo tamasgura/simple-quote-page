@@ -5,14 +5,60 @@ body {
 	width: 100vw;
 	height: 100vh;
 	background: url("./assets/freedom.jpg") no-repeat center;
+	background-size: cover;
 	text-align: center;
 }
 
 .wrapper {
 	width: 90%;
 	margin: 0 auto;
+	/*padding-top: 11.5vh;*/
+	padding-top: 4vh;
 }
 
+.quote {
+	text-transform: uppercase;
+	font: 1.25rem 'Julius Sans One', sans-serif;
+	line-height: 1.6;
+	margin-bottom: 1.5rem;
+}
+
+.author	{
+	font: 1rem 'Crimson Text', serif;
+}
+
+@media (min-width: 576px) {
+	
+	.wrapper {
+		padding-top: 8vh;
+	}
+
+	.quote {
+		font-size: 1.733rem;
+	}
+	
+	.author {
+		font-size: 1.3rem;
+	}
+}
+
+@media (min-width: 992px) {
+
+	.wrapper {
+		padding-top: 10vh;
+	}	
+	
+	.quote {
+		font-size: 2.488rem;
+		margin-bottom: 3rem;
+	}
+
+	.author {
+		font-size: 1.4rem;
+	}
+}
+
+/*
 .quote {
 	text-transform: uppercase;
 	font: 2.3rem 'Julius Sans One', sans-serif;
@@ -24,4 +70,4 @@ body {
 
 .author {
 	font: 1.4rem 'Crimson Text', serif;
-}
+}*/
